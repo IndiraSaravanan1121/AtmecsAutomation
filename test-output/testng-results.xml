@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-03T13:15:26Z" name="Default suite" finished-at="2019-10-03T13:16:40Z" duration-ms="74339">
+  <suite started-at="2019-10-03T15:07:14Z" name="Suite" finished-at="2019-10-03T15:08:27Z" duration-ms="73334">
     <groups>
     </groups>
-    <test started-at="2019-10-03T13:15:26Z" name="Default test" finished-at="2019-10-03T13:16:40Z" duration-ms="74339">
+    <test started-at="2019-10-03T15:07:14Z" name="Test" finished-at="2019-10-03T15:08:27Z" duration-ms="73334">
       <class name="com.AtmecsAutomation.TestScript.ValidateHomePage">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:45:25Z" name="startReport" finished-at="2019-10-03T18:45:26Z" duration-ms="708" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:37:13Z" name="startReport" finished-at="2019-10-03T20:37:14Z" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:45:26Z" name="setup" finished-at="2019-10-03T18:45:50Z" duration-ms="24253" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:37:14Z" name="setup" finished-at="2019-10-03T20:37:39Z" duration-ms="25280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickExploreNow()[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:45:50Z" name="clickExploreNow" finished-at="2019-10-03T18:45:59Z" duration-ms="8397" status="PASS">
+        <test-method signature="clickExploreNow()[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:37:39Z" name="clickExploreNow" finished-at="2019-10-03T20:37:48Z" duration-ms="8861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickExploreNow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:45:59Z" name="tearDown" finished-at="2019-10-03T18:46:01Z" duration-ms="2266" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:37:48Z" name="tearDown" finished-at="2019-10-03T20:37:50Z" duration-ms="2088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:03Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T18:46:09Z" duration-ms="5911" status="PASS">
+        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:37:52Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T20:37:58Z" duration-ms="6084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageLoadedOrNotAndBreadCrumb -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:09Z" name="tearDown" finished-at="2019-10-03T18:46:11Z" duration-ms="1261" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:37:58Z" name="tearDown" finished-at="2019-10-03T20:37:59Z" duration-ms="1280" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:11Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T18:46:17Z" duration-ms="6255" status="PASS">
+        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:37:59Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T20:38:06Z" duration-ms="7094" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageLoadedOrNotAndBreadCrumb -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:17Z" name="tearDown" finished-at="2019-10-03T18:46:18Z" duration-ms="1162" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:38:06Z" name="tearDown" finished-at="2019-10-03T20:38:08Z" duration-ms="1178" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:18Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T18:46:26Z" duration-ms="8161" status="PASS">
+        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:38:08Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T20:38:13Z" duration-ms="5441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageLoadedOrNotAndBreadCrumb -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:26Z" name="tearDown" finished-at="2019-10-03T18:46:27Z" duration-ms="1157" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:38:13Z" name="tearDown" finished-at="2019-10-03T20:38:14Z" duration-ms="1120" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:27Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T18:46:33Z" duration-ms="5870" status="PASS">
+        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:38:14Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T20:38:20Z" duration-ms="5423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageLoadedOrNotAndBreadCrumb -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:33Z" name="tearDown" finished-at="2019-10-03T18:46:34Z" duration-ms="1017" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:38:20Z" name="tearDown" finished-at="2019-10-03T20:38:21Z" duration-ms="1111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,7 +138,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:34Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T18:46:39Z" duration-ms="5298" status="PASS">
+        <test-method signature="validatePageLoadedOrNotAndBreadCrumb(java.lang.String, java.lang.String)[pri:1, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:38:21Z" name="validatePageLoadedOrNotAndBreadCrumb" data-provider="moreInfoLink" finished-at="2019-10-03T20:38:26Z" duration-ms="5521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,7 +154,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageLoadedOrNotAndBreadCrumb -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:39Z" name="tearDown" finished-at="2019-10-03T18:46:40Z" duration-ms="1025" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:38:26Z" name="tearDown" finished-at="2019-10-03T20:38:27Z" duration-ms="958" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,11 +165,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T18:46:41Z" name="endReport" finished-at="2019-10-03T18:46:42Z" duration-ms="1406" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.AtmecsAutomation.TestScript.ValidateHomePage@6e75aa0d]" started-at="2019-10-03T20:38:27Z" name="endReport" finished-at="2019-10-03T20:38:29Z" duration-ms="1575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.AtmecsAutomation.TestScript.ValidateHomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -30,7 +30,7 @@ public class ExtentReport {
 
 	@BeforeSuite
 	public void startReport() {
-		htmlReporter = new ExtentHtmlReporter("Extent.html");
+		htmlReporter = new ExtentHtmlReporter("extent.html");
 		htmlReporter.config().setDocumentTitle("Automation Report-Atmecs.com");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
@@ -63,7 +63,6 @@ public class ExtentReport {
 	}
 
 	public static String getScreenshot(WebDriver driver, String screenshotName) throws Exception {
-		// String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		String destination = System.getProperty("user.dir") + "/screenshot/" + screenshotName + ".png";
